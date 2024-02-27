@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(41, 99, 198);
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Stying to whole wrapper div */
+.wrapper{
+    margin-top: 100px;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 8%;
+    box-shadow: 0 0 20px 0px #000000fc;
+}
+
+/* Styling to all buttons */
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(22, 198, 242);
+    font-size: medium;
+    font-weight: 500;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+button:active{
+    transform:scale(0.96,0.96) ;
+}
+
+/* Styling to live timing section */
+.clock{
+    text-align: center;
+}
+
+/* Styling to select section in setAlarm div */
+select{
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(33, 219, 236);
+}
+
+/* Styling to the alarmList div section */
+#alarmList{
+    text-align: center;
+}
+
+#alarmList button{
+    margin-left: 20px;
+    padding: 1px;
+}
+
+#alarmList div{
+    margin-top: 5px;
+}
+
+#alarmList span{
+    font-weight: 600;
+    font-size: large;
+}
